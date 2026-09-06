@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+outputs/
+*.log
+*.egg-info/
+dist/
+build/
+PyS2CF_Mamba_submission__R2_.zip

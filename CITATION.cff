@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accepted manuscript below."
+title: "PyS2CF-Mamba"
+type: software
+authors:
+  - family-names: Gao
+    given-names: Yinping
+  - family-names: Li
+    given-names: Jiaxin
+  - family-names: Wu
+    given-names: Yong
+  - family-names: Zhang
+    given-names: Liping
+  - family-names: Lei
+    given-names: Dajiang
+  - family-names: Kong
+    given-names: Lingyan
+  - family-names: Yue
+    given-names: Linfeng
+license: MIT
+repository-code: "https://github.com/yinpinggao/PyS2CF-Mamba"
+
+preferred-citation:
+  type: article
+  title: "PyS2CF-Mamba: A Pyramid Spatial-Spectral Competitive Fusion Mamba Network for Hyperspectral Image Classification"
+  authors:
+    - family-names: Gao
+      given-names: Yinping
+    - family-names: Li
+      given-names: Jiaxin
+    - family-names: Wu
+      given-names: Yong
+    - family-names: Zhang
+      given-names: Liping
+    - family-names: Lei
+      given-names: Dajiang
+    - family-names: Kong
+      given-names: Lingyan
+    - family-names: Yue
+      given-names: Linfeng
+  journal: "IEEE Geoscience and Remote Sensing Letters"
+  status: in-press

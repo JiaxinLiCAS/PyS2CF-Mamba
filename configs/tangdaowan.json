@@ -1,0 +1,43 @@
+{
+  "dataset": "QUH-Tangdaowan",
+  "data_root": "./data",
+  "output_root": "outputs",
+  "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "split": {
+    "train_samples_per_class": 100,
+    "val_samples_per_class": 30
+  },
+  "preprocessing": {
+    "pca_components": 30,
+    "gaussian_sigma": 1.0,
+    "stretch_low": 2.0,
+    "stretch_high": 98.0
+  },
+  "model": {
+    "hidden_dim": 128,
+    "num_spectral_groups": 4,
+    "group_norm_groups": 4,
+    "difference_alpha": 0.5,
+    "prca_num_heads": 4,
+    "prca_num_scales": 3,
+    "prca_layers_per_scale": 3,
+    "pyramid_dilation": 3,
+    "lsp_reduction": 4,
+    "mamba_d_state": 16,
+    "mamba_d_conv": 4,
+    "mamba_expand": 2,
+    "pool_size": 2,
+    "classification_head_dim": 128
+  },
+  "training": {
+    "epochs": 200,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.00001,
+    "label_smoothing": 0.05
+  },
+  "tiling": {
+    "tile_size": 512,
+    "overlap": 32,
+    "num_update_groups": 2
+  }
+}
